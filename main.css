@@ -1,16 +1,15 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff"),
-        url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.ttf') format('truetype');
+    src: url("fonts/RoslindaleVariable[opsz\,slnt\,wdth\,wght]-Edu.woff2") format("woff2"),
+        url('fonts/RoslindaleVariable[opsz\,slnt\,wdth\,wght]-Edu.ttf') format('truetype');
 
-    font-family: 'Forma';
+    font-family: 'Roslindale Variable';
     font-style: normal;
     font-weight: normal;
     }
     
     body{
     background-color: #f5f4ef;
-    font-family: 'Forma';
+    font-family: 'Roslindale Variable';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -57,12 +56,16 @@ h3{
 
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
+
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
+    50%{
+
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" -8;
     }
-    
+
 }
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
