@@ -9,7 +9,7 @@
     }
     
     body{
-    background-color: lightsteelblue;
+    background-color: #f5f4ef;
     font-family: 'Forma';
 }
 /* how the page wrapper will appear on mobile */
@@ -44,7 +44,7 @@ grid-area: a;
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: #63cccf;
 }
 
 /* variable font animation */
