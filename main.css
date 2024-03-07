@@ -3,7 +3,7 @@
         url('fonts/RoslindaleVariable[opsz\,slnt\,wdth\,wght]-Edu.ttf') format('truetype');
 
     font-family: 'Roslindale Variable';
-    font-style: normal;
+    font-style:  normal;
     font-weight: normal;
     }
     *{
@@ -73,7 +73,7 @@ h3{
     }
     50%{
 
-        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" -8;
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
     }
 
 }
