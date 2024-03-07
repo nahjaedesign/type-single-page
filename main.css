@@ -11,6 +11,7 @@
     } */
     body{
     background-color: #f5f4ef;
+    background-image: url('background-pattern.svg') ;
     font-family: 'Roslindale Variable';
 }
 /* how the page wrapper will appear on mobile */
