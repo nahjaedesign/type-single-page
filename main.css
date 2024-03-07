@@ -30,10 +30,10 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 grid-template-rows: auto auto auto auto;
 grid-template-areas: 
-    " . . . . . t t t . . . . "
-    " . . . . . t t t . . . . "
-    " . g . . . t t t . . b . "
-    " . g . . . t t t .   b . ";
+    " . . . . t t t t . . . . "
+    " . . . . t t t t . . . . "
+    " . g . . t t t t . . b . "
+    " . g . . t t t t . . b . ";
 }
 
 
