@@ -6,9 +6,9 @@
     font-style:  normal;
     font-weight: normal;
     }
-    *{
+    /* *{
       border: blue 3px dashed;  
-    } 
+    }  */
     body{
     background-color: #f5f4ef;
     background-image: url('background-pattern.svg');
@@ -37,6 +37,56 @@ grid-template-areas:
     " . g . . t t t t . . b . ";
 }
 
+.greenblob {
+    grid-area: g;
+    animation: greenBlob 7s infinite;
+    }
+    
+    @keyframes greenBlob{
+       0%, 100% {
+           transform: translateY(70%);
+           opacity: 0
+       }
+       50% {
+           transform: translateX(0);
+           opacity: 1; 
+       }
+    }
+    }
+
+.pinkblob {
+    grid-area: g;
+    animation: greenBlob 7s infinite;
+    }
+        
+     @keyframes greenBlob{
+        0%, 100% {
+            transform: translateY(70%);
+            opacity: 0
+        }
+        50% {
+            transform: translateX(0);
+            opacity: 1; 
+        }
+    }
+
+.blueblob {
+    grid-area: g;
+    animation: greenBlob 7s infinite;
+    }
+        
+    @keyframes greenBlob{
+        0%, 100% {
+            transform: translateY(70%);
+            opacity: 0
+        }
+        50% {
+            transform: translateX(0);
+            opacity: 1; 
+        }
+    }
+    
+
 
 .greenblob {
 grid-area: g;
@@ -52,7 +102,7 @@ grid-area: b;
 .hero-text {
 grid-area: t;
 }
-}
+
 /* CSS for the footer */
 footer{
     background-color: #63cccf;
