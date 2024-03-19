@@ -131,7 +131,7 @@ footer{
 }
 
 /* characters/glyphs animation */
-h2 {
+h2a {
   font-weight: 20;  
   text-align:center;
   font-size: 8em;
@@ -147,7 +147,8 @@ h2 {
     }
 
  }
- /* .alphabet2 {
+
+ h2b {
     font-weight: 20;  
     text-align:center;
     font-size: 8em;
@@ -156,15 +157,16 @@ h2 {
  @keyframes weightChange3 {
     0%, 100%{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
-    }
+        }
     50%{
-        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0; 
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
+     }
     }
-}  */
+
  
 
 /* variable font that changes on hover */
-.variable-font{
+/* .variable-font{
     font-weight:1 ;
     height:100vh;
     font-size: 10em;
@@ -187,5 +189,5 @@ h2 {
     margin: 0;
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
-}
+} */
 
