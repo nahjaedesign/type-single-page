@@ -39,7 +39,7 @@ grid-template-areas:
 
 .greenblob {
     grid-area: g;
-    animation: greenBlob 7s infinite;
+    animation: greenblob 7s infinite;
     }
     
     @keyframes greenblob{
@@ -56,12 +56,12 @@ grid-template-areas:
 
 .pinkblob {
     grid-area: g;
-    animation: greenBlob 7s infinite;
+    animation: pinkblob 7s infinite;
     }
         
-     @keyframes greenBlob{
+     @keyframes pinkblob{
         0%, 100% {
-            transform: translateY(70%);
+            transform: translateY(-70%);
             opacity: 0
         }
         50% {
@@ -72,10 +72,10 @@ grid-template-areas:
 
 .blueblob {
     grid-area: g;
-    animation: greenBlob 7s infinite;
+    animation: blueblob 7s infinite;
     }
         
-    @keyframes greenBlob{
+    @keyframes blueblob{
         0%, 100% {
             transform: translateY(70%);
             opacity: 0
