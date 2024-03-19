@@ -37,12 +37,12 @@ grid-template-areas:
     " . g . . t t t t . . b . ";
 }
 
-.greenblob {
+.greenblob-long {
     grid-area: g;
-    animation: greenblob 7s infinite;
+    animation: greenblob-long 7s infinite;
     }
     
-    @keyframes greenblob{
+    @keyframes greenblob-long{
        0%, 100% {
            transform: translateY(70%);
            opacity: 0
@@ -88,7 +88,7 @@ grid-template-areas:
     
 
 
-.greenblob {
+.greenblob-long {
 grid-area: g;
 }
 
@@ -112,7 +112,7 @@ footer{
 h3{
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 8em;
     animation: weightChange 7s infinite;
 }
 
