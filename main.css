@@ -42,7 +42,7 @@ grid-template-areas:
     animation: greenBlob 7s infinite;
     }
     
-    @keyframes greenBlob{
+    @keyframes greenblob{
        0%, 100% {
            transform: translateY(70%);
            opacity: 0
