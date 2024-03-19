@@ -154,14 +154,14 @@ footer{
 }
 
 /* characters/glyphs animation */
-h2a {
+.line-1 {
   font-weight: 20;  
   text-align:center;
   font-size: 4em;
   grid-area: a;
-  animation: weightChange2 7s infinite;
+  animation: weightChange1 7s infinite;
 }
-@keyframes weightChange2 {
+@keyframes weightChange1 {
     0%, 100%{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
 
@@ -172,28 +172,28 @@ h2a {
 
  }
 
- h2b {
+ .line-2 {
     font-weight: 20;  
     text-align:center;
-    font-size: 8em;
+    font-size: 4em;
     grid-area: c;
-    animation: weightChange3 7s infinite;
+    animation: weightChange2 7s infinite;
  }
- @keyframes weightChange3 {
+ @keyframes weightChange2 {
     0%, 100%{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
         }
     50%{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
      }
-    }
-h2c {
+}
+.line-3 {
     font-weight: 20;  
     text-align:center;
-    font-size: 8em;
-    animation: weightChange4 7s infinite; 
+    font-size: 4em;
+    animation: weightChange1 7s infinite; 
 }
-@keyframes weightChange4 {
+@keyframes weightChange1 {
     0%, 100%{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
 
@@ -201,9 +201,37 @@ h2c {
     50%{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
     }
+}
+.line-4 {
+    font-weight: 20;  
+    text-align:center;
+    font-size: 4em;
+    animation: weightChange2 7s infinite; 
+}
+@keyframes weightChange2 {
+    0%, 100%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
 
- }
+    }
+    50%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
+    }
+}
+/* .line-5 {
+    font-weight: 20;  
+    text-align:center;
+    font-size: 4em;
+    animation: weightChange1 7s infinite; 
+}
+@keyframes weightChange1 {
+    0%, 100%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
 
+    }
+    50%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
+    }
+} */
  
 
 /* variable font that changes on hover */
