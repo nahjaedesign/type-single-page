@@ -34,7 +34,12 @@ grid-template-areas:
     " . . . . . p p . . . . . "
     " . . . . t t t t . . . . "
     " . g . . t t t t . . b . "
-    " . g . . t t t t . . b . ";
+    " . g . . t t t t . . b . "
+    " . . . . . . . . . . . . "
+    " . . . . a a a a . . . . "
+    " . . . . c c c c . . . . "
+    " . . . . . . . . . . . . "
+    " . . . . . . . . . . . . ";
 }
 
 .greenblob-long {
@@ -55,7 +60,7 @@ grid-template-areas:
     }
 
 .pinkblob {
-    grid-area: g;
+    grid-area: p;
     animation: pinkblob 7s infinite;
     }
         
@@ -71,7 +76,7 @@ grid-template-areas:
     }
 
 .blueblob {
-    grid-area: g;
+    grid-area: b;
     animation: blueblob 7s infinite;
     }
         
@@ -101,6 +106,12 @@ grid-area: b;
 }
 .hero-text {
 grid-area: t;
+}
+.h2a {
+grid-area: a;
+}
+.h2b {
+grid-area: c;
 }
 
 
@@ -134,7 +145,8 @@ footer{
 h2a {
   font-weight: 20;  
   text-align:center;
-  font-size: 8em;
+  font-size: 4em;
+  grid-area: a;
   animation: weightChange2 7s infinite;
 }
 @keyframes weightChange2 {
@@ -152,6 +164,7 @@ h2a {
     font-weight: 20;  
     text-align:center;
     font-size: 8em;
+    grid-area: c;
     animation: weightChange3 7s infinite;
  }
  @keyframes weightChange3 {
@@ -162,6 +175,22 @@ h2a {
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
      }
     }
+h2c {
+    font-weight: 20;  
+    text-align:center;
+    font-size: 8em;
+    animation: weightChange4 7s infinite; 
+}
+@keyframes weightChange4 {
+    0%, 100%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
+
+    }
+    50%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
+    }
+
+ }
 
  
 
