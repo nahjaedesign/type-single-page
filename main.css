@@ -47,7 +47,7 @@ grid-template-areas:
            transform: translateY(70%);
            opacity: 0
        }
-       50% {
+       60% {
            transform: translateX(0);
            opacity: 1; 
        }
@@ -64,7 +64,7 @@ grid-template-areas:
             transform: translateY(-70%);
             opacity: 0
         }
-        50% {
+        60% {
             transform: translateX(0);
             opacity: 1; 
         }
@@ -80,7 +80,7 @@ grid-template-areas:
             transform: translateY(70%);
             opacity: 0
         }
-        50% {
+        60% {
             transform: translateX(0);
             opacity: 1; 
         }
