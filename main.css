@@ -111,14 +111,14 @@ footer{
 }
 
 /* variable font animation */
-h3{
+.hero-text{
     font-weight:20; 
     text-align: center;
     font-size: 8em;
-    animation: weightChange 7s infinite;
+    animation: weightChange1 7s infinite;
 }
 
-@keyframes weightChange {
+@keyframes weightChange1 {
     0%, 100%{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
 
@@ -129,6 +129,24 @@ h3{
     }
 
 }
+
+/* characters/glyphs animation */
+h2 {
+  font-weight: 20;  
+  text-align:center;
+  font-size: 8em;
+  animation: weightChange2 7s infinite;
+}
+@keyframes weightChange2 {
+    0%, 100%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
+
+    }
+    50%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
+    }
+
+ }
 
 /* variable font that changes on hover */
 .variable-font{
