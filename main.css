@@ -16,6 +16,17 @@
     /* overflow: hidden; */
     font-family: 'Roslindale Variable';
 }
+  a{display: inline-block;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 20px;
+    margin:60px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Roslindale'
+ }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
     width: min(100% - 3rem, 80ch);
@@ -119,6 +130,7 @@ grid-area: c;
 /* CSS for the footer */
 footer{
     background-color: #63cccf;
+    
 }
 
 /* variable font animation */
