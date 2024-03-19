@@ -8,7 +8,7 @@
     }
     /* *{
       border: blue 3px dashed;  
-    }  */
+    }   */
     body{
     background-color: #f5f4ef;
     background-image: url('desktop-3-background.svg');
@@ -31,6 +31,7 @@
 .page-wrapper{
     width: min(100% - 3rem, 80ch);
     margin-inline: auto;
+    margin-top: -5rem;
 }
 /* how the page wrapper appears on desktop */
 
@@ -153,13 +154,14 @@ footer{
 
 }
 
-/* characters/glyphs animation */
+/* characters,glyphs,animations */
 .line-1 {
-  font-weight: 20;  
-  text-align:center;
-  font-size: 4em;
-  grid-area: a;
-  animation: weightChange1 7s infinite;
+    margin-top: 0em;
+    font-weight: 20;  
+    text-align:center;
+    font-size: 4em;
+    grid-area: a;
+    animation: weightChange1 7s infinite;
 }
 @keyframes weightChange1 {
     0%, 100%{
@@ -217,21 +219,14 @@ footer{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
     }
 }
-/* .line-5 {
+.special-characters {
+    margin-top: 2em;
     font-weight: 20;  
     text-align:center;
     font-size: 4em;
-    animation: weightChange1 7s infinite; 
+    animation: weightChange1 7s infinite;
 }
-@keyframes weightChange1 {
-    0%, 100%{
-        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
 
-    }
-    50%{
-        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 900, "slnt" 0;
-    }
-} */
  
 
 /* variable font that changes on hover */
