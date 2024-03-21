@@ -36,6 +36,11 @@
 }
 /* how the page wrapper appears on mobile */
 @media only screen and (max-width:800px){
+    .page-wrapper{
+        width: min(100% - 3rem, 80ch);
+        margin-inline: auto;
+        margin-top: -5rem;
+    }
     .hero{
     display: grid;
     /* grid-gap: 25px; */
@@ -152,6 +157,7 @@ footer{
 
 
 }
+/* my info  */
 .school {
     padding-right:5%;
     text-align: right;
@@ -160,10 +166,27 @@ footer{
 .course {
     padding-right:5%;
     text-align: right;
+    padding-bottom: 0%;
 }
 .year {
     padding-right:5%;
     text-align: right;
+    padding-bottom: 0%;
+}
+
+.contact {
+    padding-left:5%;
+    text-align: left;
+    padding-bottom: 0%;
+}
+.instagram {
+    padding-left:5%;
+    text-align: left;
+    padding-bottom: 0%;
+}
+.linkedin {
+    padding-left:5%;
+    text-align: left;
     padding-bottom: 0%;
 }
 
