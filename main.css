@@ -46,12 +46,7 @@ grid-template-areas:
     " . . . . . p p . . . . . "
     " . . . . t t t t . . . . "
     " . g . . t t t t . . b . "
-    " . g . . t t t t . . b . "
-    " . . . . . . . . . . . . "
-    " . . . . a a a a . . . . "
-    " . . . . c c c c . . . . "
-    " . . . . . . . . . . . . "
-    " . . . . . . . . . . . . ";
+    " . g . . t t t t . . b . ";
 }
 
 .greenblob-long {
@@ -119,12 +114,12 @@ grid-area: b;
 .hero-text {
 grid-area: t;
 }
-.h2a {
+/* .h2a {
 grid-area: a;
 }
 .h2b {
 grid-area: c;
-}
+} */
 
 
 
