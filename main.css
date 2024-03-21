@@ -222,6 +222,10 @@ footer{
     animation: weightChange1 7s infinite;
 }
 
+.link {
+  color: black;  
+}
+
  
 
 /* variable font that changes on hover */
