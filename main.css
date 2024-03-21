@@ -222,10 +222,13 @@ footer{
     animation: weightChange1 7s infinite;
 }
 
-.link {
-  color: black;  
-}
+.basic-link {
+    color: #000000; 
+  }
 
+  .basic-link:hover {
+    color: #FACD75; 
+  }
  
 
 /* variable font that changes on hover */
