@@ -34,6 +34,21 @@
     margin-inline: auto;
     margin-top: -5rem;
 }
+/* how the page wrapper appears on mobile */
+@media only screen and (max-width:800px){
+    .hero{
+    display: grid;
+    /* grid-gap: 25px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+        " . . . . . p p . . . . . "
+        " . . . . . p p . . . . . "
+        " . . . . t t t t . . . . "
+        " . g . . t t t t . . b . "
+        " . g . . t t t t . . b . ";
+    }
+}
 /* how the page wrapper appears on desktop */
 
 @media only screen and (min-width:800px){
