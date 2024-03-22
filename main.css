@@ -87,12 +87,12 @@ grid-template-areas:
     }
     }
 
-.pinkblob {
+.pink-blob {
     grid-area: p;
-    animation: pinkblob 7s infinite;
+    animation: pink-blob 7s infinite;
     }
         
-     @keyframes pinkblob{
+     @keyframes pink-blob{
         0%, 100% {
             transform: translateY(-70%);
             opacity: 0
@@ -125,7 +125,7 @@ grid-template-areas:
 grid-area: g;
 }
 
-.pinkblob{
+.pink-blob{
 grid-area: p;
 }
 
