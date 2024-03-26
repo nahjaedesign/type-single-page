@@ -303,12 +303,34 @@ footer{
     font-size: 4em;
     animation: weightChange1 7s infinite;
 }
-.glyphs {
+/* .glyphs {
     margin-top: 2em;
     font-weight: 20;  
     text-align:center;
     font-size: 4em;
-    animation:  7s infinite;
+    animation: spin 7s infinite;
+} */
+.circle-glyph1 {
+    /* margin-top: 2em; */
+    font-weight: 20;  
+    text-align:center;
+    font-size: 8em;
+    animation: spin 7s infinite;
+}
+@keyframes spin {
+
+    0%, 100%{
+        fill:rgb(0, 0, 0);
+        transform: scale(.5);
+        transform-origin: center;
+        opacity: .5;
+        transform: rotate(50deg);
+      }
+    50%{
+        fill:rgb(0, 0, 0);
+        transform: scale(.8);
+        transform-origin: center;
+    }
 }
 
 .basic-link {
