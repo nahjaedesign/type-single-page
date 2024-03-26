@@ -159,11 +159,11 @@ grid-area: c;
 /* CSS for the footer */
 footer{
     background-color: #63cccf;
-      text-align: left;
+      text-align: center;
       /* left: 0%; */
       /* bottom:0px; */
       /* position: fixed; */
-      z-index: 999;
+      /* z-index: 999; */
       width: 100%;
       /* padding-left: 5%; */
 
@@ -171,11 +171,12 @@ footer{
 }
 /* my info  */
 .school {
-    padding-right:5%;
-    text-align: right;
+    padding-top:5%;
+    /* padding-right:5%; */
+    text-align: center;
     padding-bottom: 0%;
 }
-.course {
+/* .course {
     padding-right:5%;
     text-align: right;
     padding-bottom: 0%;
@@ -184,23 +185,23 @@ footer{
     padding-right:5%;
     text-align: right;
     padding-bottom: 0%;
-}
+} */
 
 .contact {
-    padding-left:5%;
-    text-align: left;
+    /* padding-right:5%; */
+    text-align: center;
     padding-bottom: 0%;
 }
 .instagram {
+    /* padding-right:5%; */
+    text-align: center;
+    padding-bottom: 0%;
+}
+/* .linkedin {
     padding-left:5%;
     text-align: left;
     padding-bottom: 0%;
-}
-.linkedin {
-    padding-left:5%;
-    text-align: left;
-    padding-bottom: 0%;
-}
+} */
 
 /* variable font animation */
 .hero-text{
@@ -390,6 +391,7 @@ footer{
     color: #664b01;
     font-size: 20px; 
     text-align: center;
+    font-variation-settings: "opsz" 48, "wdth" 100, "wght" 600, "slnt" 0;
   }
 
   .basic-link:hover {
