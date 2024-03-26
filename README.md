@@ -1,2 +1,2 @@
-# type-single-page
- 
+# Variable Type Specimen Website
+A month-long project working with HTML, CSS, CSS grid, Figma, and animations to create a visually dynamic and engaging type specimen website for the variable font 'Roslindale'. After researching the font and its designer, David Jonathan Ross, I was inspired by its vintage flair and similarities to retro book covers and advertisments from the 70s. Using Figma, I created 
