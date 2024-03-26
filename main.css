@@ -325,7 +325,7 @@ footer{
 }
 
 .special-characters {
-    margin-top: 2em;
+    /* margin-top: 2em; */
     font-weight: 20;  
     text-align:center;
     font-size: 4em;
@@ -338,12 +338,21 @@ footer{
     font-size: 4em;
     animation: spin 7s infinite;
 } */
-.circle-glyph1 {
-    /* margin-top: 2em; */
+/* .circle-glyph {
+    margin-top: 0;
     font-weight: 20;  
     text-align:center;
     font-size: 8em;
     animation: spin 7s infinite;
+    color: #000000;
+} */
+
+.fractions {
+    margin-top: 0em;
+    font-weight: 20;  
+    font-size: 4em;
+    text-align: center;
+    animation: weightChange2 7s infinite;
 }
 @keyframes spin {
 
