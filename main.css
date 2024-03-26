@@ -12,7 +12,7 @@
     }   */
     body{
     background-color: #f5f4ef;
-    background-image: url('desktop-3-background.svg');
+    background-image: url('floral-background.svg');
     background-repeat: no-repeat;
     /* overflow: hidden; */
     font-family: 'Roslindale Variable';
@@ -229,24 +229,29 @@ footer{
     font-size: 2em;
 }
 
-.optical-size {
+.list {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+/* .optical-size {
     font-size: 2.5em;
-    text-align: center;
+    text-align: left;
 }
 .width {
     font-size: 2em;
-    text-align: center;
+    text-align: left;
 }
 .weight {
     font-variation-settings: "wght" 800, "SPAC" 100;
     font-size: 2em;
-    text-align: center;
+    text-align: left;
 }
 .slant {
     font-size: 2em;
-    text-align: center;
+    text-align: left;
     font-style: oblique; 
-}
+} */
 
 
 /* characters,glyphs,animations */
@@ -318,6 +323,15 @@ footer{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
     }
 }
+@keyframes weightChange3 {
+    0%, 100%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
+
+    }
+    50%{
+        font-variation-settings: "opsz" 48, "wdth" 100, "wght" 500, "slnt" 0;
+    }
+}
 .characters {
     margin-top: 2em;
     font-weight: 20;  
@@ -327,9 +341,9 @@ footer{
 .special-characters {
     /* margin-top: 2em; */
     font-weight: 20;  
-    text-align:center;
-    font-size: 4em;
-    animation: weightChange1 7s infinite;
+    text-align:left;
+    font-size: 2em;
+    animation: weightChange3 7s infinite;
 }
 /* .glyphs {
     margin-top: 2em;
@@ -350,8 +364,8 @@ footer{
 .fractions {
     margin-top: 0em;
     font-weight: 20;  
-    font-size: 4em;
-    text-align: center;
+    font-size: 2em;
+    text-align: left;
     animation: weightChange2 7s infinite;
 }
 @keyframes spin {
@@ -371,6 +385,8 @@ footer{
 }
 
 .basic-link {
+    padding-right: 0em;
+    margin-top: 2em;
     color: #664b01;
     font-size: 20px; 
     text-align: center;
