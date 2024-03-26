@@ -212,7 +212,7 @@ footer{
 
 /* Variations */
 .optical-size {
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
 }
 .width {
@@ -220,6 +220,7 @@ footer{
     text-align: center;
 }
 .weight {
+    font-variation-settings: "wght" 800, "SPAC" 100;
     font-size: 2em;
     text-align: center;
 }
@@ -301,6 +302,13 @@ footer{
     text-align:center;
     font-size: 4em;
     animation: weightChange1 7s infinite;
+}
+.glyphs {
+    margin-top: 2em;
+    font-weight: 20;  
+    text-align:center;
+    font-size: 4em;
+    animation:  7s infinite;
 }
 
 .basic-link {
