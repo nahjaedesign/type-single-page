@@ -22,9 +22,9 @@ a{display: inline-block;
     border: none;
     outline: none;
     cursor: pointer;
-    /* padding: 20px 20px;
-    margin:60px;
-    border-radius: 10px; */
+    /* padding: 20px 20px; */
+    /* margin:60px; */
+    /* border-radius: 10px; */
     font-size: 16px;
     font-family: 'Roslindale' 
  }
@@ -148,10 +148,22 @@ grid-area: c;
     font-size: 2em;
 }
 
+.history-text {
+    line-height: 1.5em;
+}
+
 .languages {
     margin-top: 2em;
     font-weight: 20;  
     font-size: 2em;
+}
+
+.language-text {
+    line-height: 1.5em;
+}
+
+.list-text {
+    line-height: 1.5em;
 }
 
 
@@ -386,18 +398,20 @@ footer{
 }
 
 .shadow {
-    background-color: #ff8c00;
-    color: #fff;
+    background-color:#ac8311;
+    width: 25%;
+    text-align: center;
+    color: #ffff;
     border: none;
-    border-radius: 10px;
-    padding: 15px 30px;
+    border-radius: 50px;
+    padding: 15px 15px;
     font-weight: bold;
     text-transform: uppercase;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .shadow:hover {
-    background-color: #ff6b00;
+    background-color: #876302;
 }
 
 /* .basic-link {
