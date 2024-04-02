@@ -241,7 +241,18 @@ footer{
     font-weight: 20;  
     font-size: 2em;
 }
-
+.optical {
+    animation: sizeChange 7s infinite;
+}
+.width {
+    animation: widthChange 5s infinite; 
+}
+.weight {
+    animation: weightChange1 7s infinite
+}
+.slant {
+    animation: slantChange 7s infinite
+}
 .list {
     font-size: 1.5em;
     text-align: left;
@@ -280,6 +291,35 @@ footer{
     grid-area: a;
     animation: weightChange1 7s infinite;
 }
+
+@keyframes sizeChange {
+    0%, 100%{
+        font-size: 1.5em;
+
+    }
+    50%{
+       font-size: 1em;
+    }
+}
+@keyframes widthChange {
+    0%, 100%{
+        font-stretch: extra-condensed;
+
+    }
+    40%{
+        font-stretch: extra-expanded;
+    }
+}
+@keyframes slantChange {
+    0%, 100%{
+        font-style: italic;
+
+    }
+    50%{
+        font-style: normal;
+    }
+}
+
 @keyframes weightChange1 {
     0%, 100%{
         font-variation-settings: "opsz" 48, "wdth" 100, "wght" 200, "slnt" 0;
