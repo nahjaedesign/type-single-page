@@ -258,24 +258,6 @@ footer{
     text-align: left;
 }
 
-/* .optical-size {
-    font-size: 2.5em;
-    text-align: left;
-}
-.width {
-    font-size: 2em;
-    text-align: left;
-}
-.weight {
-    font-variation-settings: "wght" 800, "SPAC" 100;
-    font-size: 2em;
-    text-align: left;
-}
-.slant {
-    font-size: 2em;
-    text-align: left;
-    font-style: oblique; 
-} */
 
 
 /* characters,glyphs,animations */
@@ -395,7 +377,7 @@ footer{
     /* margin-top: 2em; */
     font-weight: 20;  
     text-align:left;
-    font-size: 2em;
+    font-size: 4em;
     animation: weightChange3 7s infinite;
 }
 /* .glyphs {
@@ -417,7 +399,7 @@ footer{
 .fractions {
     margin-top: 0em;
     font-weight: 20;  
-    font-size: 2em;
+    font-size: 4em;
     text-align: left;
     animation: weightChange2 7s infinite;
 }
