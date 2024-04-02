@@ -419,6 +419,10 @@ footer{
     }
 }
 
+.button {
+    text-align: center;
+}
+
 .shadow {
     background-color:#ac8311;
     padding-left: 5em;
